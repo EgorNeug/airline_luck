@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body {
+    max-width: 100%;
+    max-height: 100%;
+    font-family: 'Montserrat', sans-serif;
+    background-image: url(../img/legacy450_4.jpg);
+    background-position: center;
+    background-size: 100%;
+    color: aliceblue;
+}
+
+header {
+    padding: 0 7%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: aliceblue;
+}
+
+.logo {
+    font-size: 300%;
+}
+
+nav {
+    display: flex;
+}
+
+.nav__links {
+    text-decoration: none;
+    justify-content: space-between;
+    margin-right: 20px;
+    font-size: 150%;
+    color: aliceblue;
+}
+
+#about {
+    margin-top: 32%;
+    margin-left: 5%;
+    padding: 20px;
+    max-width: 40%;
+    border-radius: 50px;
+    font-size: 150%;
+    color: aliceblue;
+}
